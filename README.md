@@ -45,9 +45,9 @@ El proyecto contiene los siguientes archivos y carpetas:
 - `css/style.css`: Hoja de estilos para el diseño visual del sitio web.
 - `img/php.ico`: Icono utilizado por el sitio, en el `favicon` del navegador.
 
----
-
 Cada uno de estos archivos cumple una función dentro del flujo del sitio. El usuario interactúa principalmente con las páginas HTML, que a su vez llaman a los scripts PHP de la carpeta `includes/` para interactuar con el sistema y la base de datos.
+
+---
 
 ## 🖥️ Requisitos del Sistema
 
