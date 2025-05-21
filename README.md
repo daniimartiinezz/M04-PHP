@@ -97,10 +97,12 @@ sudo mariadb
 ```
 
 ### 2. Crea la base de datos y el usuario
+En el directorio [sql](https://github.com/daniimartiinezz/M04-PHP/tree/main/sql), está el archivo .sql para que importes directamente la base de datos.
 
 ```sql
 CREATE DATABASE M04DMM;
 USE M04DMM;
+
 CREATE TABLE USUARIOS (
     ID INT AUTO_INCREMENT PRIMARY KEY,
     Nombre VARCHAR(100),
