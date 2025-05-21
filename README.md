@@ -86,6 +86,27 @@ sudo systemctl enable apache2
 sudo systemctl start apache2
 ```
 
+### 5. Cambio de contraseña para root
+
+```bash
+sudo mysql
+```
+
+Una vez dentro,
+
+```sql
+ALTER USER 'root'@'localhost' IDENTIFIED VIA mysql_native_password USING PASSWORD('P@ssw0rd');
+FLUSH PRIVILEGES;
+EXIT;
+```
+
+### 6. Instalación segura de MySQL
+
+```bash
+sudo mysql_secure_installation
+```
+> Considera marcar todo a n en las opciones del instalador.
+
 ---
 
 ## 🛠️ Configuración de la Base de Datos (MariaDB)
@@ -93,7 +114,7 @@ sudo systemctl start apache2
 ### 1. Accede a MariaDB
 
 ```bash
-sudo mariadb
+sudo mysql
 ```
 
 ### 2. Crea la base de datos y el usuario
