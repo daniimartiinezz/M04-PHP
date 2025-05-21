@@ -174,7 +174,7 @@ sudo systemctl restart apache2
 
 ---
 
-## 📸 Capturas de Pantalla (Opcional)
+## 📸 Capturas de Pantalla del Sitio Web
 
 ![PHP](img/img1.png)
 ![PHP](img/img2.png)
