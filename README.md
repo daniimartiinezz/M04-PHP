@@ -3,6 +3,7 @@
 Este proyecto es una práctica del módulo **M04** (Lenguajes de marcas y sistemas de gestión de información), que consiste en un sitio web desarrollado en **HTML**, **CSS** y **PHP**, desplegado en un servidor **Apache**. El sitio ejecuta comandos del sistema con `shell_exec` y se conecta a una base de datos para mostrar o gestionar información.
 
 Puedes ver la web en [mi página web](http://espetoneta.es) (NO DISPONIBLE AÚN)
+
 ---
 
 ## 🚀 Funcionalidades del Sitio Web
