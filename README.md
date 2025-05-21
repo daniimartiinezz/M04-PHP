@@ -1,4 +1,4 @@
-# 📁 M04 - PHP
+# 📁 BA2 - RA6 - Proyecto PHP, MySQL y CMD
 
 Este proyecto es una práctica del módulo **M04** (Lenguajes de marcas y sistemas de gestión de información), que consiste en un sitio web desarrollado en **HTML**, **CSS** y **PHP**, desplegado en un servidor **Apache**. El sitio ejecuta comandos del sistema con `shell_exec` y se conecta a una base de datos para mostrar o gestionar información.
 
