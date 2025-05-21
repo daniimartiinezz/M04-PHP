@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Inicio → Base de Datos → Registrar Usuario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/img/php.ico">
+  </head>
+  <body>
+    <h1>Registro de Usuarios</h1>
+    <form action="includes/add.php" method="POST">
+      <input type="text" name="nombre" placeholder="Nombre" required><br>
+      <input type="text" name="apellidos" placeholder="Apellidos" required><br>
+      <input type="email" name="email" placeholder="Correo Electrónico" required><br>
+      <input type="text" name="telefono" placeholder="Teléfono"><br><br>
+      <button type="submit">Registrar</button>
+    </form>
+    <br>
+    <a href="bbdd.html">Volver Atrás</a>
+    <a href="index.html">Volver a Inicio</a>
+  </body>
+</html>
