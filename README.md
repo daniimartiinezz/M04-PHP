@@ -12,7 +12,6 @@ Este proyecto es una práctica del módulo **M04** (Lenguajes de marcas y sistem
   - Se conectan a una base de datos (MariaDB/MySQL).
 - Interfaz sencilla para la visualización de datos y ejecución de operaciones.
 - Muestra del estado del sistema o resultados de comandos.
-- Página adicional para búsqueda de información por correo electrónico.
 
 ---
 
